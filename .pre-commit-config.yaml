@@ -46,28 +46,6 @@ repos:
             \.pre-commit-config.yaml|
             \.readthedocs.yml
           )$
-  - repo: https://github.com/timothycrosley/isort
-    rev: 5.9.3
-    hooks:
-      - id: isort
-  - repo: https://github.com/psf/black
-    rev: 21.9b0
-    hooks:
-      - id: black
-        args:
-          - --check
-          - --color
-          - --diff
-  - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.9.2
-    hooks:
-      - id: flake8
-        additional_dependencies:
-          - flake8-bugbear
-          - flake8-comprehensions
-          - flake8-docstrings
-          - flake8-print
-          - flake8-use-fstring
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.9
     hooks:

@@ -1,9 +1,8 @@
 {
   "description": "Version management for npm tools.",
   "devDependencies": {
-    "cspell": "^5.12.3",
-    "pyright": "^1.1.179"
+    "cspell": "^5.12.3"
   },
-  "name": "generic-template",
+  "name": "ansible-collection-workstation",
   "version": "0.0.0"
 }

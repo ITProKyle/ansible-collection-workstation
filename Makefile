@@ -24,36 +24,8 @@ docs: ## delete current HTML docs & build fresh HTML docs
 docs-changes: ## build HTML docs; only builds changes detected by Sphinx
 	@make -C docs html
 
-fix-black: ## automatically fix all black errors
-	@poetry run black .
-
-fix-isort: ## automatically fix all isort errors
-	@poetry run isort .
-
 fix-md: ## automatically fix markdown format errors
 	@poetry run pre-commit run mdformat --all-files
-
-lint: lint-black lint-isort lint-pyright lint-flake8 ## run linters
-
-lint-black: ## run black
-	@echo "Running black... If this fails, run 'make fix-black' to resolve."
-	@poetry run black . --check --color --diff
-	@echo ""
-
-lint-flake8: ## run flake8
-	@echo "Running flake8..."
-	@poetry run flake8
-	@echo ""
-
-lint-isort: ## run isort
-	@echo "Running isort... If this fails, run 'make fix-isort' to resolve."
-	@poetry run isort . --check-only
-	@echo ""
-
-lint-pyright: ## run pyright
-	@echo "Running pyright..."
-	@npx pyright --venv-path ./
-	@echo ""
 
 open-docs: ## open docs (HTML files must already exists)
 	@make -C docs open
@@ -83,6 +55,3 @@ spellcheck: ## run cspell
 		--no-progress \
 		--relative \
 		--show-context
-
-test: ## run tests
-	@echo "Success!"
