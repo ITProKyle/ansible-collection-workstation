@@ -34,7 +34,7 @@ resolvelib = ">=0.5.3,<0.6.0"
 
 [[package]]
 name = "ansible-lint"
-version = "5.2.1"
+version = "5.3.0"
 description = "Checks playbooks for practices and behaviour that could potentially be improved"
 category = "dev"
 optional = false
@@ -667,7 +667,7 @@ docs = ["pygments", "recommonmark", "sphinx", "sphinx-rtd-theme", "sphinxcontrib
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3c2eaec78fd82f3fddb39efb966a42eede05c5e25895abb169221ece3e963494"
+content-hash = "c36eead2964bbc21a4c105d12f127366e72566129f4a8b724c3ce3c247df7be5"
 
 [metadata.files]
 alabaster = [
@@ -681,8 +681,8 @@ ansible-core = [
     {file = "ansible-core-2.12.0.tar.gz", hash = "sha256:0e9049a1ab8b8c54ddc80738dc0ab2b57870be6fe4cd4e5585d471547ab74b13"},
 ]
 ansible-lint = [
-    {file = "ansible-lint-5.2.1.tar.gz", hash = "sha256:d64aca59c8d896541d379b9205b2126b851088aab0a2c2cab19ff74b184cdf1c"},
-    {file = "ansible_lint-5.2.1-py3-none-any.whl", hash = "sha256:92a6d3eda27691d1c8c8787bc6cc3fab76fe070ccd369b4a6fc187d93eab867f"},
+    {file = "ansible-lint-5.3.0.tar.gz", hash = "sha256:2e568943ab99f6474df262bc35808d8b055754aa6b3204649d57884733bace2e"},
+    {file = "ansible_lint-5.3.0-py3-none-any.whl", hash = "sha256:7b23a770cbff5493753553d3a665a1fabf6ca4d71b44d55a61bc32e5aede0bbb"},
 ]
 babel = [
     {file = "Babel-2.9.1-py2.py3-none-any.whl", hash = "sha256:ab49e12b91d937cd11f0b67cb259a57ab4ad2b59ac7a3b41d6c06c0ac5b0def9"},
