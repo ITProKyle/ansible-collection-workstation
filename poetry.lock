@@ -34,7 +34,7 @@ resolvelib = ">=0.5.3,<0.6.0"
 
 [[package]]
 name = "ansible-lint"
-version = "5.3.1"
+version = "5.4.0"
 description = "Checks playbooks for practices and behaviour that could potentially be improved"
 category = "dev"
 optional = false
@@ -54,7 +54,7 @@ yamllint = {version = ">=1.25.0", optional = true, markers = "extra == \"yamllin
 [package.extras]
 community = ["ansible (>=2.10)"]
 core = ["ansible-core (>=2.11.4)"]
-test = ["flaky (>=3.7.0)", "pytest (>=6.0.1)", "pytest-cov (>=2.10.1)", "pytest-xdist (>=2.1.0)", "psutil"]
+test = ["coverage (>=6.2,<6.3)", "tomli (>=1.2.3,<2.0.0)", "flaky (>=3.7.0)", "pytest (>=6.0.1)", "pytest-cov (>=2.10.1)", "pytest-xdist (>=2.1.0)", "psutil"]
 yamllint = ["yamllint (>=1.25.0)"]
 
 [[package]]
@@ -667,7 +667,7 @@ docs = ["pygments", "recommonmark", "sphinx", "sphinx-rtd-theme", "sphinxcontrib
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d9fe460f8ba2c63978fdb1edb8c966415c1e391b1559b319e033a7e3df31c6de"
+content-hash = "3159a2d9c57dbb3653f6821f3d81f54bf551e1ee05ec7465f0d47e0b5cc484a5"
 
 [metadata.files]
 alabaster = [
@@ -681,8 +681,8 @@ ansible-core = [
     {file = "ansible-core-2.12.0.tar.gz", hash = "sha256:0e9049a1ab8b8c54ddc80738dc0ab2b57870be6fe4cd4e5585d471547ab74b13"},
 ]
 ansible-lint = [
-    {file = "ansible-lint-5.3.1.tar.gz", hash = "sha256:7d7bc74b9b90c5982be5c274c2afcba5b8073ec88cce793fab463fe6418a25f6"},
-    {file = "ansible_lint-5.3.1-py3-none-any.whl", hash = "sha256:4793ce6862ef7f85b3aaa7fa21887fd3e45bae43505640523c9b25928ac992de"},
+    {file = "ansible-lint-5.4.0.tar.gz", hash = "sha256:2160a60b4ab034c04006d701a1779340ffb0f6e28f030ff8de958e1062a88962"},
+    {file = "ansible_lint-5.4.0-py3-none-any.whl", hash = "sha256:fb57755825b50da88c226052772bd843d37714155b504175912daac0e186e8c0"},
 ]
 babel = [
     {file = "Babel-2.9.1-py2.py3-none-any.whl", hash = "sha256:ab49e12b91d937cd11f0b67cb259a57ab4ad2b59ac7a3b41d6c06c0ac5b0def9"},
