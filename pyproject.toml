@@ -16,7 +16,7 @@ sphinx-rtd-theme = { version = "^1.0.0", optional = true }  # docs
 sphinxcontrib-apidoc = { version = "^0.3", optional = true }  # docs
 
 [tool.poetry.dev-dependencies]
-ansible-lint = { extras = ["community", "yamllint"], version = "^5.3.1" }
+ansible-lint = { extras = ["community", "yamllint"], version = "^6.0.1" }
 pre-commit = "^2.16.0"
 
 [tool.poetry.extras]
